@@ -111,13 +111,12 @@
 		E7F04DAE212F03D900978A52 /* RxRepositoryExample */ = {
 			isa = PBXGroup;
 			children = (
-				E7F04DAF212F03D900978A52 /* AppDelegate.swift */,
-				E7F04DB1212F03D900978A52 /* FirstViewController.swift */,
-				E7F04DB3212F03D900978A52 /* SecondViewController.swift */,
-				E7F04DB5212F03D900978A52 /* Main.storyboard */,
 				E7F04DB8212F03DC00978A52 /* Assets.xcassets */,
-				E7F04DBA212F03DC00978A52 /* LaunchScreen.storyboard */,
+				E7F04DAF212F03D900978A52 /* AppDelegate.swift */,
 				E7F04DBD212F03DC00978A52 /* Info.plist */,
+				E7F04DD1212F071B00978A52 /* Model */,
+				E7F04DD3212F073200978A52 /* View */,
+				E7F04DD2212F072500978A52 /* Controller */,
 			);
 			path = RxRepositoryExample;
 			sourceTree = "<group>";
@@ -129,6 +128,31 @@
 				E7F04DC8212F03DC00978A52 /* Info.plist */,
 			);
 			path = RxRepositoryExampleTests;
+			sourceTree = "<group>";
+		};
+		E7F04DD1212F071B00978A52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7F04DD2212F072500978A52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7F04DB1212F03D900978A52 /* FirstViewController.swift */,
+				E7F04DB3212F03D900978A52 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E7F04DD3212F073200978A52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E7F04DB5212F03D900978A52 /* Main.storyboard */,
+				E7F04DBA212F03DC00978A52 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,15 +260,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RxRepositoryExample-checkManifestLockResult.txt",
 			);
@@ -258,8 +278,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxRepositoryExample/Pods-RxRepositoryExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -270,8 +288,6 @@
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
@@ -290,15 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RxRepositoryExampleTests-checkManifestLockResult.txt",
 			);
