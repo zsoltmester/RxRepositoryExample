@@ -4,3 +4,7 @@
 /Index/
 xcuserdata/
 *.xcscmblueprint
+
+# Cocoapods
+/Pods/
+/*.xcworkspace/
