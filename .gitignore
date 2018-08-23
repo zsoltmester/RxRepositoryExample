@@ -1,0 +1,6 @@
+# Xcode
+/Build/
+/DerivedData/
+/Index/
+xcuserdata/
+*.xcscmblueprint
